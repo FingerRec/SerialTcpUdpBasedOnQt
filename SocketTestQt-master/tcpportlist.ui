@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TCPPortList</class>
+ <widget class="QWidget" name="TCPPortList">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>254</width>
+    <height>190</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Standard TCP Ports</string>
+  </property>
+  <widget class="QTableWidget" name="uiTCPPortList">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="rowCount">
+    <number>35</number>
+   </property>
+   <property name="columnCount">
+    <number>3</number>
+   </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>96</number>
+   </attribute>
+   <attribute name="horizontalHeaderHighlightSections">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>16</number>
+   </attribute>
+   <attribute name="verticalHeaderHighlightSections">
+    <bool>true</bool>
+   </attribute>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <column/>
+   <column/>
+   <column/>
+   <item row="0" column="0">
+    <property name="text">
+     <string>21</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>ftp</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>22</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>ssh</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>23</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>telnet</string>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>25</string>
+    </property>
+   </item>
+   <item row="3" column="1">
+    <property name="text">
+     <string>smtp</string>
+    </property>
+   </item>
+   <item row="3" column="2">
+    <property name="text">
+     <string>Send mails</string>
+    </property>
+   </item>
+   <item row="4" column="0">
+    <property name="text">
+     <string>42</string>
+    </property>
+   </item>
+   <item row="4" column="1">
+    <property name="text">
+     <string>nameserver</string>
+    </property>
+   </item>
+   <item row="5" column="0">
+    <property name="text">
+     <string>43</string>
+    </property>
+   </item>
+   <item row="5" column="1">
+    <property name="text">
+     <string>whois</string>
+    </property>
+   </item>
+   <item row="6" column="0">
+    <property name="text">
+     <string>53</string>
+    </property>
+   </item>
+   <item row="6" column="1">
+    <property name="text">
+     <string>dns-zone</string>
+    </property>
+   </item>
+   <item row="7" column="0">
+    <property name="text">
+     <string>63</string>
+    </property>
+   </item>
+   <item row="7" column="1">
+    <property name="text">
+     <string>whois++</string>
+    </property>
+   </item>
+   <item row="8" column="0">
+    <property name="text">
+     <string>70</string>
+    </property>
+   </item>
+   <item row="8" column="1">
+    <property name="text">
+     <string>gopher</string>
+    </property>
+   </item>
+   <item row="9" column="0">
+    <property name="text">
+     <string>79</string>
+    </property>
+   </item>
+   <item row="9" column="1">
+    <property name="text">
+     <string>finger</string>
+    </property>
+   </item>
+   <item row="10" column="0">
+    <property name="text">
+     <string>80</string>
+    </property>
+   </item>
+   <item row="10" column="1">
+    <property name="text">
+     <string>http</string>
+    </property>
+   </item>
+   <item row="10" column="2">
+    <property name="text">
+     <string>Web Server</string>
+    </property>
+   </item>
+   <item row="11" column="0">
+    <property name="text">
+     <string>109</string>
+    </property>
+   </item>
+   <item row="11" column="1">
+    <property name="text">
+     <string>pop2</string>
+    </property>
+   </item>
+   <item row="12" column="0">
+    <property name="text">
+     <string>110</string>
+    </property>
+   </item>
+   <item row="12" column="1">
+    <property name="text">
+     <string>pop3</string>
+    </property>
+   </item>
+   <item row="13" column="0">
+    <property name="text">
+     <string>135</string>
+    </property>
+   </item>
+   <item row="13" column="1">
+    <property name="text">
+     <string>ntrpc/dce</string>
+    </property>
+   </item>
+   <item row="14" column="0">
+    <property name="text">
+     <string>137</string>
+    </property>
+   </item>
+   <item row="14" column="1">
+    <property name="text">
+     <string>netbios-ns</string>
+    </property>
+   </item>
+   <item row="15" column="0">
+    <property name="text">
+     <string>138</string>
+    </property>
+   </item>
+   <item row="15" column="1">
+    <property name="text">
+     <string>netbios-dgn</string>
+    </property>
+   </item>
+   <item row="16" column="0">
+    <property name="text">
+     <string>139</string>
+    </property>
+   </item>
+   <item row="16" column="1">
+    <property name="text">
+     <string>netbios</string>
+    </property>
+   </item>
+   <item row="17" column="0">
+    <property name="text">
+     <string>143</string>
+    </property>
+   </item>
+   <item row="17" column="1">
+    <property name="text">
+     <string>imap</string>
+    </property>
+   </item>
+   <item row="18" column="0">
+    <property name="text">
+     <string>389</string>
+    </property>
+   </item>
+   <item row="18" column="1">
+    <property name="text">
+     <string>ldap</string>
+    </property>
+   </item>
+   <item row="19" column="0">
+    <property name="text">
+     <string>386</string>
+    </property>
+   </item>
+   <item row="19" column="1">
+    <property name="text">
+     <string>netware-ip</string>
+    </property>
+   </item>
+   <item row="20" column="0">
+    <property name="text">
+     <string>443</string>
+    </property>
+   </item>
+   <item row="20" column="1">
+    <property name="text">
+     <string>https/ssl</string>
+    </property>
+   </item>
+   <item row="21" column="0">
+    <property name="text">
+     <string>515</string>
+    </property>
+   </item>
+   <item row="21" column="1">
+    <property name="text">
+     <string>printer</string>
+    </property>
+   </item>
+   <item row="22" column="0">
+    <property name="text">
+     <string>1024-1030</string>
+    </property>
+   </item>
+   <item row="22" column="1">
+    <property name="text">
+     <string>w2k rpc services</string>
+    </property>
+   </item>
+   <item row="23" column="0">
+    <property name="text">
+     <string>1080</string>
+    </property>
+   </item>
+   <item row="23" column="1">
+    <property name="text">
+     <string>socks</string>
+    </property>
+   </item>
+   <item row="24" column="0">
+    <property name="text">
+     <string>1745</string>
+    </property>
+   </item>
+   <item row="24" column="1">
+    <property name="text">
+     <string>winsock-proxy</string>
+    </property>
+   </item>
+   <item row="25" column="0">
+    <property name="text">
+     <string>5631</string>
+    </property>
+   </item>
+   <item row="25" column="1">
+    <property name="text">
+     <string>pcanywhere</string>
+    </property>
+   </item>
+   <item row="25" column="2">
+    <property name="text">
+     <string>RAT s/w</string>
+    </property>
+   </item>
+   <item row="26" column="0">
+    <property name="text">
+     <string>5800</string>
+    </property>
+   </item>
+   <item row="26" column="1">
+    <property name="text">
+     <string>vnc</string>
+    </property>
+   </item>
+   <item row="26" column="2">
+    <property name="text">
+     <string>RAT s/w</string>
+    </property>
+   </item>
+   <item row="27" column="0">
+    <property name="text">
+     <string>5900</string>
+    </property>
+   </item>
+   <item row="27" column="1">
+    <property name="text">
+     <string>vnc-java</string>
+    </property>
+   </item>
+   <item row="28" column="0">
+    <property name="text">
+     <string>8000</string>
+    </property>
+   </item>
+   <item row="28" column="1">
+    <property name="text">
+     <string>web</string>
+    </property>
+   </item>
+   <item row="29" column="0">
+    <property name="text">
+     <string>8001</string>
+    </property>
+   </item>
+   <item row="29" column="1">
+    <property name="text">
+     <string>web</string>
+    </property>
+   </item>
+   <item row="30" column="0">
+    <property name="text">
+     <string>8002</string>
+    </property>
+   </item>
+   <item row="30" column="1">
+    <property name="text">
+     <string>web</string>
+    </property>
+   </item>
+   <item row="31" column="0">
+    <property name="text">
+     <string>8080</string>
+    </property>
+   </item>
+   <item row="31" column="1">
+    <property name="text">
+     <string>web</string>
+    </property>
+   </item>
+   <item row="31" column="2">
+    <property name="text">
+     <string>Web server like Apache or Tomcat</string>
+    </property>
+   </item>
+   <item row="32" column="0">
+    <property name="text">
+     <string>12345</string>
+    </property>
+   </item>
+   <item row="32" column="1">
+    <property name="text">
+     <string>netbus</string>
+    </property>
+   </item>
+   <item row="32" column="2">
+    <property name="text">
+     <string>trojan</string>
+    </property>
+   </item>
+   <item row="33" column="0">
+    <property name="text">
+     <string>54320</string>
+    </property>
+   </item>
+   <item row="33" column="1">
+    <property name="text">
+     <string>bo2k</string>
+    </property>
+   </item>
+   <item row="34" column="0">
+    <property name="text">
+     <string>65301</string>
+    </property>
+   </item>
+   <item row="34" column="1">
+    <property name="text">
+     <string>pcanywhere-def</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
