@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/22.jpg</file>
+        <file>csslserver.h</file>
+        <file>main.cpp</file>
+        <file>SocketTestQ.cpp</file>
+        <file>SocketTestQ.h</file>
+        <file>tcpportlist.cpp</file>
+        <file>tcpportlist.h</file>
+        <file>udpportlist.cpp</file>
+        <file>udpportlist.h</file>
+    </qresource>
+</RCC>
